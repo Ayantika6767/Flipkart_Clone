@@ -1,0 +1,120 @@
+.nav{
+    
+    background-color:  #2874f0;
+   display: flex;
+   justify-content: center;
+   height: 40px;
+padding: 10px 0px;
+    
+}
+/* .nav-left{
+    font-size: 10px;
+    background-color: rgb(227, 255, 127);
+    display: inline;
+    padding: 25px;
+    float: left;
+} */
+.logo{
+    height: 20px;
+   
+}
+#plus{
+    color: yellow;
+    height: 8px;
+    width: 10px;
+}
+
+.explore{
+    color: white;
+    position: relative;
+   top:-14px;
+   font-size: x-small;
+   
+}
+.search{
+    width: 500px;
+    text-align: left;
+    padding: 10px 10px;
+    background-color: white;
+    margin: 0px 10px;
+    display:flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0,0,0,0.1),
+    7px 7px 10px rgba(0,0,0, 0.1) ;
+    border-radius: 3px;
+    height: 20px;
+   
+}
+.search input{
+width: 350px;
+border: none;
+outline: none;
+font-size: medium;
+
+
+}
+.login-btn{
+    padding: 5px 40px;
+    height: 40px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: #2874f0;
+}
+.navlink{
+    font-size: 16.5px;
+    color: white;
+    margin: 0px 20px;
+    font-weight: 500;
+    
+}
+.navlink:hover {
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+}
+.login-btn:hover{
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+}
+#angle{
+    font-size: 10px;
+    
+}
+.recent{
+    position:absolute;
+    top: 50px;
+    background-color:white;
+    box-shadow: -5px 5px 7px rgba(0,0,0,0.2),5px 5px 10px rgba(0,0,0,0.2) ;
+    width: 500px;
+    padding: 8px 10px;
+    margin-left: -10px;
+    height: 400px;
+    border-top: 2px solid #ccc;
+    z-index:5;
+    color:  rgb(67, 62, 62);
+    display: none;
+}
+ .search:focus-within .recent{
+display: block;
+}
+.list{
+    font-size: 15px;
+    color: rgb(67, 62, 62);
+
+}
+.list p,recentlist{
+    padding-left: 10px;
+    display: flex;
+
+}
+.discover{
+    margin: 15px 0px;
+    font-size: small;
+    color: rgb(158, 155, 155);
+}
+.recentlist{
+    padding: 10px 0px;
+    display: flex;
+}

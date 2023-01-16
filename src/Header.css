@@ -1,0 +1,25 @@
+.pro{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    height: 120px;
+     margin: 0px 10px;
+    display:flex;
+    font-size: 14px;
+   font-weight: 900px;
+    font-family: Roboto,Arial,sans-serif;;
+}
+#pro1 img{
+    max-height: 64px;
+    max-width: 64px;
+    margin: 5px 10px;
+    display:flex;
+   padding:5px 35px 0px;
+  
+   
+}
+#pro1:hover p{
+    color: rgb(37, 37, 210);
+    cursor: pointer;
+}
+
